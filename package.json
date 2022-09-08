@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-       "test": "echo \"Error: no test specified\" && exit 1"
-    },
+    "start": "node index.js",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -19,10 +19,6 @@
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.10.1",
     "start": "node ./app.js"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "build": "webpack"
   }
 }
 
