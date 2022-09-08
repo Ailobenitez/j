@@ -1,1 +1,2 @@
-web: lein run -m demo.web $PORT
+web: node app.js
+web: node ./scr/app.js
